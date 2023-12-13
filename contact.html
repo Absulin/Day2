@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Tourist Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      background-image: url('./images/tvm.jpg'); 
+      background-size: cover; 
+      background-repeat: no-repeat;  
+      
+    }
+
+    header {
+      background-color: #095225;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(10, 94, 28, 0.1);
+    }
+
+    form {
+      display: grid;
+      gap: 10px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #0d4e23;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+</body>
+</html>
